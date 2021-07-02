@@ -1,20 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python101</title>
+    <title>2021 summer Python 101</title>
     <link>https://saofeconntu.github.io/python101/</link>
-    <description>Recent content on python101</description>
+    <description>Recent content on 2021 summer Python 101</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://saofeconntu.github.io/python101/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saofeconntu.github.io/python101/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Hugo</title>
+      <title>注意事項</title>
+      <link>https://saofeconntu.github.io/python101/post/noticed/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://saofeconntu.github.io/python101/post/noticed/</guid>
+      <description>這是discord的連結。日後會用這個聯繫、上課
+連結：https://discord.gg/b9WF2qAB
+也請在工作坊開始之前，先配置IDE或可以讓你寫python的地方，我們強烈推薦用Visual Studio Code
+Mac系統可以參考這個：https://ithelp.ithome.com.tw/articles/10235465 Windows系統可以參考這個：https://ithelp.ithome.com.tw/articles/10212365
+如果有問題，我們應該可以在Discord上提供更多協助 ：) 若真的不行可以用線上IDE代替。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://saofeconntu.github.io/python101/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://saofeconntu.github.io/python101/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Course Information &amp; Syallabus</title>
       <link>https://saofeconntu.github.io/python101/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://saofeconntu.github.io/python101/about/</guid>
-      <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
-It makes use of a variety of open source projects including:
- https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
+      <description>Information 大家好，我們是一群b09經濟系的學生，想說趁著暑假希望可以幫助一些系上的人一起學python程式。歡迎有興趣的人加入（非常歡迎b10的加入我們～）。我們應該會從頭教起，所以如果已經有基礎了還是可以來玩，但我們不一定有能力教你（或許可以來當老師）。有一部分的原因是希望之後系上學術部也有這個資源，所以我們想說暑假先來試試看、看看可不可行。畢竟是還在嘗試、摸索的過程，我們可能會面對很多新的挑戰，如果日後課程上有什麼困難也還請大家多多包涵，我們也會盡力改善的。
+時間：禮拜五下午兩點至四點，預計八週，正式上課從7/16（五）開始
+正課前閒聊：下週7/9（五）同一時間，我們會有個閒聊的時間，對於上課有什麼問題或想法也可以一起提出，如果裝IDE有什麼問題也歡迎來問，或是想來隨便聊一些修課建議、暑假規劃也很歡迎，如果是在下週五前就看到這個表單的，希望大家可以先來聊聊～
+對象：台灣大學經濟系學生，建議零基礎（商管程以下）或是新生
+費用：免費
+地點：Discord
+Online judge 網站：http://34.80.250.89</description>
     </item>
     
   </channel>

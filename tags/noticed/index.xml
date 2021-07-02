@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>noticed on 2021 summer Python 101</title>
+    <link>https://saofeconntu.github.io/python101/tags/noticed/</link>
+    <description>Recent content in noticed on 2021 summer Python 101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saofeconntu.github.io/python101/tags/noticed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>注意事項</title>
+      <link>https://saofeconntu.github.io/python101/post/noticed/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://saofeconntu.github.io/python101/post/noticed/</guid>
+      <description>這是discord的連結。日後會用這個聯繫、上課
+連結：https://discord.gg/b9WF2qAB
+也請在工作坊開始之前，先配置IDE或可以讓你寫python的地方，我們強烈推薦用Visual Studio Code
+Mac系統可以參考這個：https://ithelp.ithome.com.tw/articles/10235465 Windows系統可以參考這個：https://ithelp.ithome.com.tw/articles/10212365
+如果有問題，我們應該可以在Discord上提供更多協助 ：) 若真的不行可以用線上IDE代替。</description>
+    </item>
+    
+  </channel>
+</rss>
