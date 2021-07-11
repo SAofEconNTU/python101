@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.84.3" />
+
+  <title>Week1 課前閱讀-VS Code簡易介紹 &middot; 2021 summer Python 101</title>
+
+  <meta name="description" content="week1" />
+
+  
+
+<meta itemprop="name" content="Week1 課前閱讀-VS Code簡易介紹">
+<meta itemprop="description" content="week1"><meta itemprop="datePublished" content="2021-07-11T20:13:16&#43;08:00" />
+<meta itemprop="dateModified" content="2021-07-11T20:13:16&#43;08:00" />
+<meta itemprop="wordCount" content="51">
+<meta itemprop="keywords" content="week1,VS code," />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Week1 課前閱讀-VS Code簡易介紹"/>
+<meta name="twitter:description" content="week1"/>
+
+
+<meta property="og:title" content="Week1 課前閱讀-VS Code簡易介紹" />
+<meta property="og:description" content="week1" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://saofeconntu.github.io/python101/post/week1/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-07-11T20:13:16&#43;08:00" />
+<meta property="article:modified_time" content="2021-07-11T20:13:16&#43;08:00" />
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "https://saofeconntu.github.io/python101/#author",
+      "name": "2021summerpython",
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "https://saofeconntu.github.io/python101/images/profile.png"
+        
+      },
+      "description": "Let's learn Python together"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://saofeconntu.github.io/python101/#website",
+      "url": "https://saofeconntu.github.io/python101/",
+      "name": "2021 summer Python 101",
+      "description": "Let's learn Python together",
+      "publisher": {
+        "@id": "https://saofeconntu.github.io/python101/#author"
+      },
+      "inLanguage": "en-us"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://saofeconntu.github.io/python101/post/week1/#webpage",
+      "url": "https://saofeconntu.github.io/python101/post/week1/",
+      "name": "Week1 課前閱讀-VS Code簡易介紹",
+      "isPartOf": {
+        "@id": "https://saofeconntu.github.io/python101/#website"
+      },
+      "about": {
+         "@id": "https://saofeconntu.github.io/python101/#author"
+      },
+      "datePublished": "2021-07-11T20:13:16+08:00",
+      "dateModified": "2021-07-11T20:13:16+08:00",
+      "description": "week1",
+      "inLanguage": "en-us",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://saofeconntu.github.io/python101/post/week1/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "isPartOf": {
+        "@id": "https://saofeconntu.github.io/python101/post/week1/#webpage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://saofeconntu.github.io/python101/post/week1/#webpage"
+      },
+      "headline": "Week1 課前閱讀-VS Code簡易介紹",
+      "datePublished": "2021-07-11T20:13:16+08:00",
+      "dateModified": "2021-07-11T20:13:16+08:00",
+      "publisher": {
+        "@id": "https://saofeconntu.github.io/python101/#author"
+      },
+      "keywords": [
+        "week1"
+      ],
+      "articleSection": [
+      ],
+      "inLanguage": "en-us",
+      "author": {
+        "@type": "Person",
+        "name": "Bingruuu"
+      },
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://saofeconntu.github.io/python101/post/week1/#comments"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/python101/css/print.css"
+        media="print">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/python101/css/poole.css">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/python101/css/hyde.css">
+
+  
+<style type="text/css">
+  .sidebar {
+    background-color: #328394;
+  }
+
+  .read-more-link a {
+    border-color: #328394;
+  }
+
+  .read-more-link a:hover {
+    background-color: #328394;
+  }
+
+  .pagination li a {
+    color: #328394;
+    border: 1px solid #328394;
+  }
+
+  .pagination li.active a {
+    background-color: #328394;
+  }
+
+  .pagination li a:hover {
+    background-color: #328394;
+    opacity: 0.75;
+  }
+
+  footer a,
+  .content a,
+  .related-posts li a:hover {
+    color: #328394;
+  }
+</style>
+
+
+
+  
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon-precomposed"
+        sizes="144x144"
+        href="/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  </head>
+<body>
+  <aside class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      
+        
+        <div class="author-image">
+          <a href="https://saofeconntu.github.io/python101/">
+            <img src="/python101/images/profile.png" class="img-circle img-headshot center" alt="Profile Picture">
+          </a>
+        </div>
+        
+      
+
+      <h1>2021 summer Python 101</h1>
+
+      
+      <p class="lead">Let&#39;s learn Python together</p>
+      
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li>
+          <a href="https://saofeconntu.github.io/python101/">Home</a>
+          
+        </li>
+        <li>
+          <a href="/python101/posts/">released</a>
+        </li><li>
+          <a href="/python101/about/">Information</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      
+      <a href="#" rel="me" title="GitHub" target="_blank">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      
+    </section>
+  </div>
+</aside>
+
+
+  <main class="content container">
+  <div class="post">
+  <h1 class="title">Week1 課前閱讀-VS Code簡易介紹</h1>
+  
+
+  <div class="post-date">
+    <time datetime="2021-07-11T20:13:16&#43;0800">Jul 11, 2021</time> <span class="readtime">&middot; 1 min read</span>
+  </div>
+
+  <div>
+  <h2 id="visual-studio-code是什麼">Visual studio code是什麼</h2>
+<p>Visual Studio Code（簡稱VS Code）是一個由微軟開發且開放原始碼的<strong>文字編輯器</strong>，除了強大的編寫任何語言檔案的特色（畢竟他就是個文字編輯器），他還具備了許多環境開發的功能，因此也能算是被稱為一個<strong>整合開發環境（IDE）</strong>。</p>
+<p>VS code支援偵錯、除錯（debugger），並內建Git版本控制，也支援程式碼補全（打到一半會幫你顯示出來）。它也支援許多插件（比如說自動排版、語法搜尋等），讓用戶可以自行調整設定、改變背景顏色，算是一個非常自由且用戶生態活躍的軟體。</p>
+<p>我私心真的非常推薦、我覺得他比其他IDE厲害的是他的渲染功能，除了能寫Python、C各種程式語言以外，還可以打Latex、markdown筆記、Html live server、jupyter notebook&hellip;，總之他就是個超級酷的軟體，希望大家之後也能愛上他哈哈。</p>
+<h2 id="vs-code-使用環境介紹">VS code 使用環境介紹</h2>
+<p>下面這張圖我大略畫了vs code 打開後會長的樣子，大家可以先簡略看看，先玩玩看不同按鍵按下去會發生什麼事。我就依序來介紹，其實它還有很多下拉式的選單我就無法一一截圖了，就到時候week1工作坊時再跟大家說明囉</p>
+<p><img src="https://i.imgur.com/KmbwbQE.jpg" alt="1"></p>
+<ol>
+<li>文字編輯區：這邊就是打程式、編輯文件的區域。將滑鼠移到字上方就可以開始編輯囉。這邊其實就是一個IDE的本體-文字編輯器的區域了。</li>
+<li>檔案路徑：這邊會標示著你的檔案是在哪些資料夾底下。</li>
+<li>程式預覽區：如果學習程式的過程中，程式越來越長，很容易可以透過這個地方選取段落並跳到比如說有錯的地方。</li>
+<li>面板（Panel）：這邊有四個區域，可以透過該區左上角的四個區域顯示不同的面板，依次是：
+<ul>
+<li>問題（PROBLEMS）:這邊會顯示說你的程式哪裡跑錯了、變數名稱打錯了等等，如果正在除錯可以先把這邊的文字複製貼上到Google應該就會有解答了。</li>
+<li>輸出（OUTPUT）：如果用一些python的互動介面，會出現在這裡。（我超不常用）</li>
+<li>偵錯主控台（DEBUG CONSOLE）：除錯時好用的幫手，會幫你把一些錯誤訊息列在這裡。</li>
+<li>終端機（TERMINAL）：最常用，他就是把你的terminal或cmd搬過來這裡，基本上什麼都能在這裡解決（input、print、執行檔案等等）</li>
+</ul>
+</li>
+<li>已開啟的編輯器（Open editor）：簡單來說就是你開啟的檔案，他會顯示在右上像網頁瀏覽器這種感覺，可以點擊轉換編輯不同的檔案。</li>
+<li>開啟的資料夾：這邊是你開啟的資料夾，會顯示該資料夾裡面的檔案。</li>
+<li>大綱（OUTLINE）：這邊會顯示該檔案的變數、函式等結構，還蠻清楚的。</li>
+<li>提要欄：這邊主要會有五個圖示。
+<ul>
+<li>檔案總管：就是現在看到的這些（已開啟的編輯器、開啟的資料夾、大綱）。</li>
+<li>搜尋與取代（SEARCH）：可以直接搜尋該檔案的文字（程式碼長的時候比較好找）</li>
+<li>原始檔控制（git）如果有用github協作一些專案，就可以使用這區來進行git的整合（這區應該很久之後才會需要用到）。</li>
+<li>執行與偵錯：這邊是vs code內建的除錯器，可以自己看看，簡單來說他會一行一行跑你的程式看看哪裡有錯。</li>
+<li><strong>延伸插件（EXTENSION）</strong>：這個很重要，是管理所有插件的地方。可以在這邊開啟插件的設定、安裝啟用插件等功能。</li>
+</ul>
+</li>
+<li>這邊就是設定區可以透過齒輪更改一些基礎設定如背景、帳戶等。</li>
+<li>這塊右上角的三個鍵，依序為跑程式，<strong>python存完檔要執行按這個就對了</strong>。還有分割畫面、調整編輯器等功能。</li>
+<li>資訊區：最下面的這區也蠻多重要的資訊的，包括你跑程式的版本（PATH）、錯誤訊息、行數等。</li>
+</ol>
+<h2 id="快捷鍵介紹">快捷鍵介紹</h2>
+<p>接下來介紹幾個非常常用的快捷鍵，大家可以慢慢熟悉：</p>
+<ul>
+<li>存檔：command+s(mac)，control(windows)</li>
+<li>開啟設定：command+,(mac)，無預設快捷鍵透過齒輪開啟(windows)</li>
+<li>加註解：command+/(mac)，control+/(windows)</li>
+<li>打開主命令窗（可以輸入任何指令或設定或開啟文件）：command+shift+P或是F1(mac)，F1(windows)</li>
+<li>關閉視窗：command+shift+W(mac)，control+shift+W(windows)</li>
+</ul>
+<p>大概非常簡略快速的介紹到這邊，希望大家能多玩玩熟悉這個有趣的編輯器（我每次發現新的酷插件都有種驚喜），如果不是用VS code也沒關係，只要能執python的編輯器都是好編輯器！</p>
+
+  </div>
+
+  
+<div>
+  <ul class="tags">
+  <li>
+    <a href="https://saofeconntu.github.io/python101/tags/week1/" class="tag-link">week1</a>
+  </li>
+  </ul>
+</div>
+
+
+
+  <div class="share-buttons">
+  <a class="twitter-share-button"
+     href="#"
+     title="Share on Twitter"
+     data-url="https://saofeconntu.github.io/python101/post/week1/"
+     data-text="Week1 課前閱讀-VS Code簡易介紹"><i class="fab fa-twitter"></i></a>
+
+  <a class="linkedin-share-button"
+     href="#"
+     title="Share on LinkedIn"
+     data-url="https://saofeconntu.github.io/python101/post/week1/"
+     data-text="Week1 課前閱讀-VS Code簡易介紹"><i class="fab fa-linkedin-in"></i></a>
+
+  <a class="facebook-share-button"
+     href="#"
+     title="Share on Facebook"
+     data-url="https://saofeconntu.github.io/python101/post/week1/"
+     data-text="Week1 課前閱讀-VS Code簡易介紹"><i class="fab fa-facebook"></i></a>
+
+  <a class="telegram-share-button"
+     href="#"
+     title="Share on Telegram"
+     data-url="https://saofeconntu.github.io/python101/post/week1/"
+     data-text="Week1 課前閱讀-VS Code簡易介紹"><i class="fab fa-telegram"></i></a>
+
+  <a class="pinterest-share-button"
+     href="#"
+     title="Share on Pinterest"
+     data-url="https://saofeconntu.github.io/python101/post/week1/"
+     data-text="Week1 課前閱讀-VS Code簡易介紹"><i class="fab fa-pinterest"></i></a>
+</div>
+
+
+  
+</div>
+  </main>
+
+  <footer>
+  <div>
+    <p>
+      &copy;  2021
+
+      
+
+      
+    </p>
+  </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+          integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+          crossorigin="anonymous"></script>
+
+
+  <script src="/python101/js/jquery.min.js"></script>
+  <script src="/python101/js/soho.js"></script>
+
+  
+
+  
+</body>
+</html>

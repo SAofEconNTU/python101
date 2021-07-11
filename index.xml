@@ -6,7 +6,16 @@
     <description>Recent content on 2021 summer Python 101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://saofeconntu.github.io/python101/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jul 2021 20:13:16 +0800</lastBuildDate><atom:link href="https://saofeconntu.github.io/python101/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week1 課前閱讀-VS Code簡易介紹</title>
+      <link>https://saofeconntu.github.io/python101/post/week1/</link>
+      <pubDate>Sun, 11 Jul 2021 20:13:16 +0800</pubDate>
+      
+      <guid>https://saofeconntu.github.io/python101/post/week1/</guid>
+      <description>Visual studio code是什麼 Visual Studio Code（簡稱VS Code）是一個由微軟開發且開放原始碼的文字編輯器，除了強大的編寫任何語言檔案的特色（畢竟他就是個文字編輯器），他還具備了許多環境開發的功能，因此也能算是被稱為一個整合開發環境（IDE）。</description>
+    </item>
+    
     <item>
       <title>注意事項</title>
       <link>https://saofeconntu.github.io/python101/post/noticed/</link>
