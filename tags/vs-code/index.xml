@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 11 Jul 2021 20:13:16 +0800</lastBuildDate><atom:link href="https://saofeconntu.github.io/python101/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week1 課前閱讀-VS Code簡易介紹</title>
-      <link>https://saofeconntu.github.io/python101/post/week1/</link>
+      <link>https://saofeconntu.github.io/python101/post/week1-1/</link>
       <pubDate>Sun, 11 Jul 2021 20:13:16 +0800</pubDate>
       
-      <guid>https://saofeconntu.github.io/python101/post/week1/</guid>
+      <guid>https://saofeconntu.github.io/python101/post/week1-1/</guid>
       <description>Visual studio code是什麼 Visual Studio Code（簡稱VS Code）是一個由微軟開發且開放原始碼的文字編輯器，除了強大的編寫任何語言檔案的特色（畢竟他就是個文字編輯器），他還具備了許多環境開發的功能，因此也能算是被稱為一個整合開發環境（IDE）。</description>
     </item>
     

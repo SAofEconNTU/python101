@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>input on 2021 summer Python 101</title>
+    <link>https://saofeconntu.github.io/python101/tags/input/</link>
+    <description>Recent content in input on 2021 summer Python 101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jul 2021 20:24:36 +0800</lastBuildDate><atom:link href="https://saofeconntu.github.io/python101/tags/input/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week1 課前閱讀-ASCII code與輸入輸出</title>
+      <link>https://saofeconntu.github.io/python101/post/week1-2/</link>
+      <pubDate>Thu, 15 Jul 2021 20:24:36 +0800</pubDate>
+      
+      <guid>https://saofeconntu.github.io/python101/post/week1-2/</guid>
+      <description>這是檔案： 檔案</description>
+    </item>
+    
+  </channel>
+</rss>

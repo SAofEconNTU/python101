@@ -6,22 +6,49 @@
     <description>Recent content in Tags on 2021 summer Python 101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Jul 2021 20:13:16 +0800</lastBuildDate><atom:link href="https://saofeconntu.github.io/python101/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Jul 2021 20:24:36 +0800</lastBuildDate><atom:link href="https://saofeconntu.github.io/python101/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>VS code</title>
-      <link>https://saofeconntu.github.io/python101/tags/vs-code/</link>
-      <pubDate>Sun, 11 Jul 2021 20:13:16 +0800</pubDate>
+      <title>ASCII code</title>
+      <link>https://saofeconntu.github.io/python101/tags/ascii-code/</link>
+      <pubDate>Thu, 15 Jul 2021 20:24:36 +0800</pubDate>
       
-      <guid>https://saofeconntu.github.io/python101/tags/vs-code/</guid>
+      <guid>https://saofeconntu.github.io/python101/tags/ascii-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>input</title>
+      <link>https://saofeconntu.github.io/python101/tags/input/</link>
+      <pubDate>Thu, 15 Jul 2021 20:24:36 +0800</pubDate>
+      
+      <guid>https://saofeconntu.github.io/python101/tags/input/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>output</title>
+      <link>https://saofeconntu.github.io/python101/tags/output/</link>
+      <pubDate>Thu, 15 Jul 2021 20:24:36 +0800</pubDate>
+      
+      <guid>https://saofeconntu.github.io/python101/tags/output/</guid>
       <description></description>
     </item>
     
     <item>
       <title>week1</title>
       <link>https://saofeconntu.github.io/python101/tags/week1/</link>
-      <pubDate>Sun, 11 Jul 2021 20:13:16 +0800</pubDate>
+      <pubDate>Thu, 15 Jul 2021 20:24:36 +0800</pubDate>
       
       <guid>https://saofeconntu.github.io/python101/tags/week1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VS code</title>
+      <link>https://saofeconntu.github.io/python101/tags/vs-code/</link>
+      <pubDate>Sun, 11 Jul 2021 20:13:16 +0800</pubDate>
+      
+      <guid>https://saofeconntu.github.io/python101/tags/vs-code/</guid>
       <description></description>
     </item>
     
