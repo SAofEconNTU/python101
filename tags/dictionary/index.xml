@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dictionary on 2021 summer Python 101</title>
+    <link>https://saofeconntu.github.io/python101/tags/dictionary/</link>
+    <description>Recent content in dictionary on 2021 summer Python 101</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Jul 2021 20:20:43 +0800</lastBuildDate><atom:link href="https://saofeconntu.github.io/python101/tags/dictionary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week2 課前閱讀-Set和Dictionary</title>
+      <link>https://saofeconntu.github.io/python101/post/week2-1/</link>
+      <pubDate>Wed, 21 Jul 2021 20:20:43 +0800</pubDate>
+      
+      <guid>https://saofeconntu.github.io/python101/post/week2-1/</guid>
+      <description>Set集合與Dictionary字典 這是這週的課前閱讀，大概介紹了set和dictionary這兩個複合資料型別。colab這個是之後上工作坊會用的教學程式碼，大家有空可以先看看。
+https://colab.research.google.com/drive/17wW3NijL18k1FtJl_rSALm5AFQIBY9uz?usp=sharing</description>
+    </item>
+    
+  </channel>
+</rss>

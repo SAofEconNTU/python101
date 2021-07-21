@@ -6,7 +6,17 @@
     <description>Recent content on 2021 summer Python 101</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jul 2021 20:24:36 +0800</lastBuildDate><atom:link href="https://saofeconntu.github.io/python101/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jul 2021 20:20:43 +0800</lastBuildDate><atom:link href="https://saofeconntu.github.io/python101/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week2 課前閱讀-Set和Dictionary</title>
+      <link>https://saofeconntu.github.io/python101/post/week2-1/</link>
+      <pubDate>Wed, 21 Jul 2021 20:20:43 +0800</pubDate>
+      
+      <guid>https://saofeconntu.github.io/python101/post/week2-1/</guid>
+      <description>Set集合與Dictionary字典 這是這週的課前閱讀，大概介紹了set和dictionary這兩個複合資料型別。colab這個是之後上工作坊會用的教學程式碼，大家有空可以先看看。
+https://colab.research.google.com/drive/17wW3NijL18k1FtJl_rSALm5AFQIBY9uz?usp=sharing</description>
+    </item>
+    
     <item>
       <title>Week1 課前閱讀-ASCII code與輸入輸出</title>
       <link>https://saofeconntu.github.io/python101/post/week1-2/</link>
